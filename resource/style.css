@@ -362,11 +362,11 @@ nav .logo h1 {
 }
 
 .about .about__section .about__head {
+  padding: 20px 0 0;
   text-align: center;
-  margin-bottom: 1rem;
   font-size: 3rem;
   font-weight: 700;
-  color: rgba(155, 155, 155, 0.3);
+  color: #515153;
 }
 
 .about .about__section .about__para {
@@ -419,11 +419,11 @@ nav .logo h1 {
 }
 
 .features__main .features__head {
+  padding: 20px 0 0;
   text-align: center;
-  margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
-  color: rgba(155, 155, 155, 0.3);
+  color: #515153;
 }
 
 .features__main .feature__desc {
@@ -831,7 +831,9 @@ nav .logo h1 {
   width: 50%;
   height: auto;
   border-radius: 10px;
-  background-color: #d1d2d4;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 0px 10px 0px #b1b1b1;
+          box-shadow: 0px 0px 10px 0px #b1b1b1;
 }
 
 .contact .contact__div .contact__header {
@@ -839,7 +841,7 @@ nav .logo h1 {
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
-  color: #fff;
+  color: #333;
 }
 
 .contact .contact__div .contact_form {
@@ -854,7 +856,7 @@ nav .logo h1 {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 0.5rem;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .contact .contact__div .contact_form input {
@@ -895,6 +897,7 @@ nav .logo h1 {
 .contact .contact__div .contact_form input[type="submit"]:hover {
   background: #1c3e70;
   color: #fff;
+  cursor: pointer;
 }
 
 .contact .maps {
@@ -1110,7 +1113,7 @@ footer .copyright .copy__para {
     height: 150vh;
   }
   .contact .contact__div {
-    top: 30%;
+    top: 35%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
